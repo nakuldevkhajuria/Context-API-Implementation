@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+ background-image: linear-gradient(
+    to top , rgb(214, 61, 61), rgb(199, 104, 67),rgb(99, 217, 238)
+  ); 
+  height: 100vh;  
 }
 
 .App-logo {
@@ -36,3 +40,28 @@
     transform: rotate(360deg);
   }
 }
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items:stretch;
+  font-size: 30px;
+ 
+  background-color: rgb(43, 43, 148);
+  /* width: 50vw; */
+  height: 3.1rem;
+  margin: 0rem auto;
+
+
+  /* background-color: red; */
+}
+a{
+  text-decoration: none;
+ 
+}
+/* .downBack{
+  /* background-image: linear-gradient(
+    to top , rgb(161, 46, 46), yellow,pink
+  ); 
+  height: 100vh; 
+ 
+} */

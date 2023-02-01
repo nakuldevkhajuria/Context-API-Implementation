@@ -1,0 +1,50 @@
+.form{
+    /* margin: 5rem auto 3rem auto; */
+    display: flex;
+    justify-content: space-evenly;
+
+    
+   
+}
+.item{
+    margin: 6rem auto;
+    font-size: 1.2rem;
+}
+.item input{
+    background-color: transparent;
+    height: 3rem;
+    width: 15rem;
+    border-radius: 20px;
+    margin: auto 1rem;
+}
+.button{
+    font-size: 30px;
+    padding: .8rem;
+    border-radius: 2rem;
+    border: rgb(174, 49, 212) 1px solid;
+    box-shadow: 2px 2px 2px .1px rgb(174, 49, 212) ;
+}
+.twoBox{
+    display: flex;
+    justify-content: space-evenly;
+    /* float: right; */
+    /* margin-right: 15rem; */
+}
+.headButton{
+    display: flex;
+    justify-content: space-around;
+
+    margin: 1.7rem auto;
+}
+.headButton button{
+font-size: 20px;
+padding: 1rem;
+border-radius: 2rem;
+border: rgb(174, 49, 212) 1px solid;
+box-shadow: 2px 2px 2px .1px rgb(174, 49, 212) ;
+}
+.headButton span{
+font-size: 30px;
+font-weight:900;
+margin-top: .6rem;
+}
